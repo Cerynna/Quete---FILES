@@ -4,7 +4,6 @@ if ($_GET['delete']) {
     unlink("images/" . $_GET['delete']);
     header('Location: index.php');
     exit();
-
 }
 
 ?>
